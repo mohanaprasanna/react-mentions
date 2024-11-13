@@ -10,6 +10,7 @@ const applyChangeToValue = (
   { selectionStartBefore, selectionEndBefore, selectionEndAfter },
   config
 ) => {
+  console.log("Just adding new values");
   let oldPlainTextValue = getPlainText(value, config)
 
   let lengthDelta = oldPlainTextValue.length - plainTextValue.length
